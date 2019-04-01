@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">E-Kinerja</string>
+    <string name="skp">SKP TAHUNAN</string>
+    <string name="kegiatan">Kegiatan</string>
+    <string name="target_kuantitas">Target Kuantitas</string>
+    <string name="kuantitas_satuan">Satuan Kuantitas</string>
+    <string name="target">Target Selesai</string>
+    <string name="status">Status</string>
+    <string name="kuantitas">Kuantitas</string>
+    <string name="keluar">Keluar</string>
+    <string name="notif">*Geser dari kiri ke kanan untuk menghapus/edit data</string>
+    <string name="notif_hold">*Ketuk lama untuk mensetujui/tidak mensetujui laporan</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="skp_tahunan">SKP Tahunan</string>
+    <string name="ksesuai">Kesesuaian</string>
+    <string name="kesesuain">Kesesuain</string>
+    <string name="pelayanan">Pelayanan</string>
+    <string name="integritas">Integritas</string>
+    <string name="komitmen">Komitmen</string>
+    <string name="disiplin">Disiplin</string>
+    <string name="kerjasama">Kerjasama</string>
+    <string name="kepemimpinan">Kepemimpinan</string>
+    <string name="nama">Nama</string>
+    <string name="nip">NIP</string>
+    <string name="jabatan">Jabatan</string>
+    <string name="loker">Lokasi Kerja</string>
+    <string name="add">Tambah</string>
+    <string name="search">Pencarian</string>
+    <string-array name="sp_ksesuain">
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="sp_status">
+        <item>Tidak Selesai</item>
+        <item>Selesai</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titik_dua">:</string>
+</resources>

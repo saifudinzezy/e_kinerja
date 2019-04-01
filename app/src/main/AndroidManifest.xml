@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cyber_net.e_kinerja">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Login"
+            android:theme="@style/AppTheme.Dark">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.menu.SKP"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.menu.LapKinerjaSKP"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.menu.KinerjaProduktifitas"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.menu.NamaBawahan"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.menu.PenilaianPerilaku"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.menu.Setting"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.menu.KinerjaProd"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.menu.SKP2"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.menu.UbahPass"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity android:name=".activity.menu.UbahAtasan" />
+        <activity
+            android:name=".activity.menu.ListLaporan"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
